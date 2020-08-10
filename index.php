@@ -5,10 +5,4 @@ error_reporting(E_ALL);
 
 require_once "./autoload.php";
 
-use \Oxygen\Oxygen;
-
-$O = new Oxygen();
-
-echo $O->format(Oxygen::GERMAN_DATE." ".Oxygen::GERMAN_TIME);
-
 
